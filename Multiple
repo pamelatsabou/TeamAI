@@ -1,0 +1,25 @@
+# multiple for loops
+
+
+numbers = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+# prints each number on a single line
+print("numbers printed individually: ")
+for number in numbers:
+    print(number)
+
+# prints each number and its square on a single line
+print(f"numbers and respective squares: ")
+for number in numbers:
+    print(number, number ** 2)
+
+# adds each number from list into a variable called total
+total = 0
+for number in numbers:
+    total += number
+print(f"sum = {total}")
+
+# prints the product of numbers in the list
+product = 1
+for number in numbers:
+    product *= number
+print(f"product = {product}")
