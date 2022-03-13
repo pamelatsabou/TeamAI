@@ -1,0 +1,5 @@
+# finding the hypotenuse of a triangle
+def hypotenuse(a,b):
+    return(a ** 2 + b ** 2)** 0.5
+ # for example
+print(hypotenuse(3,4))
