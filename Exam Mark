@@ -1,0 +1,31 @@
+#from list of student marks print correspoding grades
+
+student_marks = {83, 75, 74.9, 70, 69.9, 65, 60, 59.9, 55, 50, 49.9, 45, 44.9, 40, 39.9, 2, 0}
+
+for mark in student_marks:
+    if mark >= 75:
+        student_grade = 'First'
+        print(f"{mark} : {student_grade}")
+    elif mark >= 70:
+        student_grade = 'Upper Second'
+        print(f"{mark} : {student_grade}")
+
+    elif mark >= 60:
+        student_grade = 'Second'
+        print(f"{mark} : {student_grade}")
+
+    elif mark >= 50:
+        student_grade = 'Third'
+        print(f"{mark} : {student_grade}")
+
+    elif mark >= 45:
+        student_grade = 'F1 Supp'
+        print(f"{mark} : {student_grade}")
+
+    elif mark >= 40:
+        student_grade = 'F2'
+        print(f"{mark} : {student_grade}")
+
+    elif mark < 40 :
+        student_grade = 'F3'
+        print(f"{mark} : {student_grade}")
